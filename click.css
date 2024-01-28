@@ -1,0 +1,373 @@
+
+
+.banner{
+    width: 1903px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    border: solid 1px red;
+    background-image: url("./asset/Rectangle256.png");
+    color: white;
+    align-content: space-around;}
+
+#image {
+        position: absolute;
+      }
+      
+#label {
+        position: absolute;
+        font-size: 32px;
+        left: 250px;
+        top: 135px;
+      }
+
+.logo{
+    width:100%;
+    height: 90px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:  75px;
+    margin: 10px;
+    
+
+}
+
+.lorem{
+    width:100%;
+    height: 135px; 
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  25px;
+
+}
+
+.agilidade{
+
+    width:100%;
+    height: 135px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  170px;
+    margin: 10px 10px;
+}
+
+.pedido{
+
+    width:100%;
+    height: 135px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:  90px;
+    margin: 10px 10px;
+}
+
+.teste{
+
+    width:100%;
+    height: 89px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:  80px;
+    margin: 20px;
+
+}
+
+
+button{
+    width: 520px;
+    height: 89px;
+    background-color: #F9C80E;
+    border-radius: 20px 20px 20px 20px;
+    font-size:  35px;
+}
+
+main{
+    width: 1903px;
+    height: 4000px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    align-content: space-around;
+    border: solid 1px red;
+    align-content: space-around;}
+
+
+.serviços{
+    width:100%;
+    height: 185px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  70px;
+    color: gray;
+
+
+}
+
+.figuras{
+    width:100%;
+    height:700px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start
+
+
+}
+
+.sobre{
+    width:100%;
+    height: 185px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  70px;
+    color: gray;
+
+
+}
+
+.meio{
+    display: flex;
+    flex-direction: rox;
+    background-image: url("./asset/Rectangle\ 259.png");
+    width: 100%;
+    height: 732px;
+    border: solid 1px red;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+    
+
+.text1{
+    width:360px;
+    height: 504px;
+    color:white;
+    border:solid 1px red;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.2;
+
+
+
+}
+
+.text2{
+    width:360px;
+    height: 456px;
+    color:white;
+    font-size: 22px;
+    border:solid 1px red;
+    text-align: center;
+    line-height: 1.2;
+
+
+
+}
+
+.text3{
+    width:360px;
+    height: 336px;
+    color:white;
+    font-size: 22px;
+    border:solid 1px red;
+    text-align: center;
+    line-height: 1.2;
+
+
+
+}
+
+.dep{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    border: solid 1px red;
+    justify-content: space-evenly;
+    align-items: center ;
+    padding-top: 2px;
+
+
+}
+
+.bc{
+    width:100%;
+    height: 150px;
+    border: solid 1px red;
+
+}
+
+.depoimentos{
+    width:100%;
+    height: 185px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  70px;
+    color: gray;
+
+
+}
+
+.contato{
+    width:100%;
+    height: 185px;
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  70px;
+    color: gray;
+
+
+}
+
+.mail{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+
+
+}
+.input{
+    width: 40px;
+    height: 10px;
+
+
+}
+
+.center{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 250px;
+    width:809px;
+    border: solid 1px red;
+    justify-content: space-evenly;
+    
+}
+
+ 
+
+
+
+.foot{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+input{
+
+    width: 380px;
+    height: 196px;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+
+}
+
+.icon{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+   
+
+}
+
+.dados1{
+
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    height: 90px;
+    border: solid 1px red;
+    align-items: center;
+}
+
+.dados2{
+
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    height: 90px;
+    border: solid 1px red;
+    align-items: center;
+}
+
+.dados3{
+
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    height: 90px;
+    border: solid 1px red;
+    align-items: center;
+}
+
+
+input{
+
+    height:56px;
+    width:374px;
+    margin-right: 100px;
+    background-color: Moccasin;
+    border: solid 2px;
+    border-color: DarkOrange;
+    text-size-adjust: 20px;
+    font-size: 16px;
+    color: rgb(99, 99, 99);
+    padding-left: 15px;
+    
+}
+
+
+.ic{
+
+    width:24px;
+    height: 24px;
+    margin-right:20px;
+    
+}
+
+
+
+
+
+    
+
