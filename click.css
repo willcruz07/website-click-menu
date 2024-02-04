@@ -1,8 +1,19 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+ body{
+    
+    
 
+ }
 
 .banner{
     width: 1903px;
-    height: 840px;
+    height: 836px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +22,10 @@
     border: solid 1px red;
     background-image: url("./asset/Rectangle256.png");
     color: white;
-    align-content: space-around;}
+    align-content: space-around;
+   
+}
+    
 
 #image {
         position: absolute;
@@ -19,9 +33,9 @@
       
 #label {
         position: absolute;
-        font-size: 32px;
         left: 250px;
         top: 135px;
+        height: 100px;
       }
 
 .logo{
@@ -40,7 +54,7 @@
 
 .lorem{
     width:100%;
-    height: 135px; 
+    height: 120px; 
     border: solid 1px red;
     display: flex;
     justify-content: center;
@@ -58,8 +72,8 @@
     justify-content: center;
     align-items: center;
     font-size:  170px;
-    margin: 10px 10px;
-}
+    margin: 10px 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
 .pedido{
 
@@ -72,8 +86,8 @@
     align-items: center;
     font-size:  90px;
     margin: 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .teste{
 
     width:100%;
@@ -84,7 +98,8 @@
     justify-content: center;
     align-items: center;
     font-size:  80px;
-    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 
 }
 
@@ -99,25 +114,24 @@ button{
 
 main{
     width: 1903px;
-    height: 4000px;
+    height: 3970px;
     display: flex;
     flex-direction: column;
-    
-    align-items: center;
-    align-content: space-around;
     border: solid 1px red;
-    align-content: space-around;}
+}
+    
 
 
 .serviços{
     width:100%;
-    height: 185px;
+    height: 155px;
     border: solid 1px red;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:  70px;
     color: gray;
+    padding-top: 25px;
 
 
 }
@@ -137,10 +151,9 @@ main{
 .sobre{
     width:100%;
     height: 185px;
-    border: solid 1px red;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     font-size:  70px;
     color: gray;
 
@@ -149,13 +162,11 @@ main{
 
 .meio{
     display: flex;
-    flex-direction: rox;
+    flex-direction: row;
     background-image: url("./asset/Rectangle\ 259.png");
     width: 100%;
     height: 732px;
-    border: solid 1px red;
-    justify-content: space-evenly;
-    align-items: center ;
+    align-items: center;
 }
 
     
@@ -164,23 +175,26 @@ main{
     width:360px;
     height: 504px;
     color:white;
-    border:solid 1px red;
     font-size: 22px;
     text-align: center;
     line-height: 1.2;
+    padding-left: 352px;
 
 
 
 }
 
 .text2{
-    width:360px;
-    height: 456px;
+    width:365px;
+    height: 504px;
     color:white;
     font-size: 22px;
-    border:solid 1px red;
     text-align: center;
     line-height: 1.2;
+    padding-left: 60px;
+    padding-right: 60px;
+
+
 
 
 
@@ -188,12 +202,13 @@ main{
 
 .text3{
     width:360px;
-    height: 336px;
+    height: 504px;
     color:white;
     font-size: 22px;
-    border:solid 1px red;
     text-align: center;
     line-height: 1.2;
+    padding-right: 352px;
+
 
 
 
@@ -202,57 +217,83 @@ main{
 .dep{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    height: 600px;
-    border: solid 1px red;
-    justify-content: space-evenly;
-    align-items: center ;
-    padding-top: 2px;
+    height: 797px;
+   
+ }
 
+ .depo{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
 
+    
 }
 
-.bc{
-    width:100%;
-    height: 150px;
-    border: solid 1px red;
-
-}
 
 .depoimentos{
     width:100%;
-    height: 185px;
-    border: solid 1px red;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:  70px;
     color: gray;
+    font-family: Poppins;
 
 
 }
 
+.fig2{
+
+    padding-left: 32px;
+
+   
+
+
+}
+    
+
+
+
+
+.fig1{
+    padding-right: 32px;
+
+
+}
+
+
+
 .contato{
     width:100%;
-    height: 185px;
-    border: solid 1px red;
+    height: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:  70px;
     color: gray;
+    background-color: #F5F4F7;
+    padding-bottom: 48px;
+    padding-top: 50px;
 
 
 }
 
 .mail{
     width: 100%;
-    height: 600px;
+    height: 532px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(231, 231, 231);
+    background-color: #F5F4F7;
+   
 
 
 }
@@ -268,11 +309,11 @@ main{
     display: flex;
     flex-direction:column;
     align-items: center;
-    height: 250px;
-    width:809px;
-    border: solid 1px red;
+    height: 260px;
+    width:830px;
     justify-content: space-evenly;
-    
+    padding-bottom: 142px;
+   
 }
 
  
@@ -316,7 +357,6 @@ input{
     flex-direction:row;
     width: 100%;
     height: 90px;
-    border: solid 1px red;
     align-items: center;
 }
 
@@ -326,7 +366,6 @@ input{
     flex-direction:row;
     width: 100%;
     height: 90px;
-    border: solid 1px red;
     align-items: center;
 }
 
@@ -336,23 +375,24 @@ input{
     flex-direction:row;
     width: 100%;
     height: 90px;
-    border: solid 1px red;
     align-items: center;
 }
 
 
 input{
 
-    height:56px;
+    height:70px;
     width:374px;
     margin-right: 100px;
-    background-color: Moccasin;
+    background-color: #F9C80E;
     border: solid 2px;
     border-color: DarkOrange;
     text-size-adjust: 20px;
     font-size: 16px;
     color: rgb(99, 99, 99);
     padding-left: 15px;
+    opacity: 0.2;
+   
     
 }
 
@@ -363,6 +403,18 @@ input{
     height: 24px;
     margin-right:20px;
     
+}
+
+.rp{
+
+    width:1903px;
+    height: 145px;
+    background-color: #F9C80E;
+
+
+
+
+
 }
 
 
