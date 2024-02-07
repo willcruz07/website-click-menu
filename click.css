@@ -112,6 +112,7 @@ button{
     background-color: #F9C80E;
     border-radius: 20px 20px 20px 20px;
     font-size:  35px;
+    border: none;
 }
 
 main{
