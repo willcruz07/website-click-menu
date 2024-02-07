@@ -3,13 +3,21 @@
     margin:0;
     vertical-align:baseline;
     list-style:none;
-    
-    }
- body{
-    
-    
 
+
+    
  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1903px;
+    height: 3970px;
+    
+}
 
 .banner{
     width: 1903px;
@@ -279,7 +287,7 @@ main{
 
 .mail{
     width: 100%;
-    height: 532px;
+    height: 540px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,9 +310,11 @@ main{
     flex-direction:column;
     align-items: center;
     height: 260px;
-    width:830px;
+    width:1903px;
     justify-content: space-evenly;
     padding-bottom: 142px;
+    background-color: #F5F4F7;
+   
    
 }
 
@@ -350,6 +360,7 @@ input{
     width: 100%;
     height: 90px;
     align-items: center;
+    justify-content: center;
 }
 
 .dados2{
@@ -359,6 +370,9 @@ input{
     width: 100%;
     height: 90px;
     align-items: center;
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .dados3{
@@ -368,6 +382,9 @@ input{
     width: 100%;
     height: 90px;
     align-items: center;
+    justify-content: center;
+    padding-left: 175px;
+    color: #000000 20%;
 }
 
 
@@ -380,10 +397,11 @@ input{
     border: solid 2px;
     border-color: DarkOrange;
     text-size-adjust: 20px;
-    font-size: 16px;
-    color: rgb(99, 99, 99);
+    font-size: 18px;
+    color: black;
     padding-left: 15px;
     opacity: 0.2;
+    
    
     
 }
@@ -396,6 +414,39 @@ input{
     margin-right:20px;
     
 }
+#send{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:150px;
+    height: 40px;
+    background-color:  #FAEBD7;
+    color: rgb(39, 32, 32);
+    align-items: center;
+    padding-top: 5px;
+    border: solid 1px DarkOrange;
+    opacity: 0.4;
+    font-size: 22px;
+    
+    
+    
+
+}
+
+.sendUser{
+    display: flex;
+    align-items: ;
+    width:1640px;
+    height: 115px;
+    background-color: #F5F4F7;
+    justify-content: center;
+    padding-right: 265px ;
+    padding-top: 15px;
+
+
+
+
+}
 
 .rp{
 
@@ -407,6 +458,12 @@ input{
 
 
 
+}
+
+footer {
+
+    width: 1903px;
+    height:145px;
 }
 
 
